@@ -1,0 +1,59 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header / Hero Section */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e0f7fa;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #00796b;
+}
+
+header p {
+    font-size: 18px;
+    color: #004d40;
+}
+
+/* Sections */
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #004d40;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00796b;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
